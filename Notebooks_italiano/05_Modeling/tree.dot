@@ -1,0 +1,36 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="odor_f <= 0.5\ngini = 0.473\nsamples = 3950\nvalue = [2430, 1520]"] ;
+1 [label="gill_size_b <= 0.5\ngini = 0.249\nsamples = 2844\nvalue = [2430, 414]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="odor_n <= 0.5\ngini = 0.435\nsamples = 494\nvalue = [158, 336]"] ;
+1 -> 2 ;
+3 [label="stalk_shape_t <= 0.5\ngini = 0.258\nsamples = 381\nvalue = [58, 323]"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 323\nvalue = [0, 323]"] ;
+3 -> 4 ;
+5 [label="gini = 0.0\nsamples = 58\nvalue = [58, 0]"] ;
+3 -> 5 ;
+6 [label="population_c <= 0.5\ngini = 0.204\nsamples = 113\nvalue = [100, 13]"] ;
+2 -> 6 ;
+7 [label="gini = 0.0\nsamples = 100\nvalue = [100, 0]"] ;
+6 -> 7 ;
+8 [label="gini = 0.0\nsamples = 13\nvalue = [0, 13]"] ;
+6 -> 8 ;
+9 [label="ring_number_o <= 0.5\ngini = 0.064\nsamples = 2350\nvalue = [2272, 78]"] ;
+1 -> 9 ;
+10 [label="habitat_p <= 0.5\ngini = 0.413\nsamples = 110\nvalue = [32, 78]"] ;
+9 -> 10 ;
+11 [label="stalk_color_above_ring_n <= 0.5\ngini = 0.133\nsamples = 84\nvalue = [6, 78]"] ;
+10 -> 11 ;
+12 [label="gini = 0.0\nsamples = 78\nvalue = [0, 78]"] ;
+11 -> 12 ;
+13 [label="gini = 0.0\nsamples = 6\nvalue = [6, 0]"] ;
+11 -> 13 ;
+14 [label="gini = 0.0\nsamples = 26\nvalue = [26, 0]"] ;
+10 -> 14 ;
+15 [label="gini = 0.0\nsamples = 2240\nvalue = [2240, 0]"] ;
+9 -> 15 ;
+16 [label="gini = 0.0\nsamples = 1106\nvalue = [0, 1106]"] ;
+0 -> 16 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
