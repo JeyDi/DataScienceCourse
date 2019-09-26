@@ -1,4 +1,4 @@
-# Data Science Course
+# DataScienceCourse
 Data Science Course
 
 Welcome to Data Scientist Course!
