@@ -13,6 +13,8 @@ There are also some practical examples collected during our work experience.
 
 To get started, we recommend that you prepare your environment by reading and following the pdf guide:
 
+https://github.com/JeyDi/DataScienceCourse/blob/master/EnvironmentSetup_EN.pdf
+
 The material will be updated from time to time, please make sure you always have the latest version available.
 
 If you have any doubts, ideas, concerns or if you are interested in collaborating and helping us, please write to:
@@ -48,7 +50,9 @@ Nelle varie sottocartelle troverete le varie lezioni che coprono diversi argomen
 
 Inoltre sono presenti anche alcuni esempi pratici raccolti durante la nostra esperienza di lavoro.
 
-Per iniziare vi cosigliamo di predisporre il vostro ambiente leggendo e seguendo la guida in pdf:
+Per iniziare vi cosigliamo di predisporre il vostro ambiente leggendo e seguendo la guida in pdf: 
+
+https://github.com/JeyDi/DataScienceCourse/blob/master/EnvironmentSetup_IT.pdf
 
 Il materiale verrà aggiornato di tanto in tanto, vi consigliamo di verificare di avere sempre a disposizione l'ultima versione.
 
